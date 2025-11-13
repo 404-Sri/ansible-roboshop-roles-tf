@@ -1,9 +1,9 @@
 MONGODB_HOST: mongodb-{{ env }}.daws-sri.fun # mongodb-dev.daws-sri.fun
 REDIS_HOST: redis-{{ env }}.daws-sri.fun
-CATALOGUE_HOST: catalogue-{{ env }}.daws-sri.fun
-CART_HOST: cart-{{ env }}.daws-sri.fun
-USER_HOST: user-{{ env }}.daws-sri.fun
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.daws-sri.fun
+CART_HOST: cart.backend-alb-{{ env }}.daws-sri.fun
+USER_HOST: user.backend-alb-{{ env }}.daws-sri.fun
 RABBITMQ_HOST: rabbitmq-{{ env }}.daws-sri.fun
 MYSQL_HOST: mysql-{{ env }}.daws-sri.fun
-SHIPPING_HOST: shipping-{{ env }}.daws-sri.fun
-PAYMENT_HOST: payment-{{ env }}.daws-sri.fun
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.daws-sri.fun
+PAYMENT_HOST: payment.backend.alb-{{ env }}.daws-sri.fun
